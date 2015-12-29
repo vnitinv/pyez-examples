@@ -1,6 +1,6 @@
 ## BLOGS
 
-* Junos and Python – Junos PyEZ – [Part 1](http://www.networkers.fi/blog/junos-and-python-junos-pyez-part-1/)
+* Junos and Python – Junos PyEZ – [Part 1](http://www.networkers.fi/blog/junos-and-python-junos-pyez-part-1/)                         
   Blogger: Jesse
 
 ## USE CASES
