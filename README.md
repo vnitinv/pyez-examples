@@ -11,7 +11,6 @@ User's PyEZ examples for reference
   https://github.com/fredriclinder/vmtrace
 
 * Deploying underlay and production networks @Riot Games
-
   http://www.ansible.com/ansible-network-infrastructure
   Speaker: [Adam Mills](https://twitter.com/riotgeneral)
 
