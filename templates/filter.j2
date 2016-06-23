@@ -1,0 +1,14 @@
+interfaces {
+    {% for item in iface_pattern | bracket_expansion %}
+    {{ item }} {
+        unit 0 {
+            family ethernet-switching {
+                port-mode access;
+                replace:
+                vlan {
+                    member {{ vlan_name }};
+               }
+           }
+       } 
+    } {% endfor %}    
+}

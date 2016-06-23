@@ -1,0 +1,21 @@
+##
+## This is top main file
+##
+
+interfaces { 
+    {% for item in interfaces %}
+    {{ item }} {
+        description "{{ description }}";
+        unit 0 {
+            family {{ family }};
+        }      
+    } {% endfor %}    
+}
+##
+## including another jinja templete
+##
+{% include 'users.j2' %}
+
+##
+## thats the end
+##

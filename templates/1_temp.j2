@@ -1,0 +1,13 @@
+interfaces {
+    interface {{ iface_name }} {
+        unit 0 {
+            family ethernet-switching {
+                port-mode access;
+                replace:
+                vlan {
+                    member {{ vlan_name }};
+               }
+           }
+       }
+    } 
+}

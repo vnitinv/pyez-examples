@@ -1,0 +1,11 @@
+system {
+    login {
+        {% for ssh_pub in sshkeyfiles %}
+        user {{ ssh_pub | basefilename }} {
+            authentication {
+                ssh-rsa "{% include ssh_pub %}";
+            }
+        }
+        {% endfor %}
+    }
+}
