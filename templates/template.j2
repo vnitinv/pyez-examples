@@ -1,0 +1,11 @@
+{% for iface in host_ports.ports %}
+interface {{ iface }}
+ description {{ description.port1 }}
+ switchport access vlan {{ host_ports_vlan.vlan_id }}
+ no snmp trap link-status
+ no cdp ena
+ no lldp transmit
+ no lldp receive
+ spanning-tree bpduguard enable
+ channel-group {{ mode.lacp }} mode active
+{% endfor %}

@@ -1,0 +1,17 @@
+---
+host_ports:
+    ports:
+      - eth115/1/1
+      - eth115/1/2
+host_ports_vlan:
+    vlan_id: 11,23,44
+description:
+    nome1: only port1
+    nome2: only port2
+    nome3: only port3
+    nome4: only port4
+    nome5: only port5
+mode:
+    lacp: 11
+vpcid:
+    domain: 14
