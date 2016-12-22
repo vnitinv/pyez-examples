@@ -12,6 +12,14 @@
 * Junos PyEZ [Installation & Initial Testing On Mac OS X](http://ethancbanks.com/2014/12/31/junos-pyez-installation-initial-testing-on-mac-os-x/)                                
   Blogger: [Ethan Banks](https://twitter.com/ecbanks)
 
+* Junos PyEZ
+  * [Getting started with Junos PyEZ](https://stebe.info/2016/11/introduction-junos-pyez/)
+  * [Checking BGP with PyEZ's Table/View](https://stebe.info/2016/11/checking-bgp-with-pyez-table-view/)
+  * [Sync PREFIX-LISTS via Junos PyEZ on several routers](https://stebe.info/2016/11/sync-prefix-lists-via-junos-pyez/)
+  * [How to get support information via junos PyEZ](https://stebe.info/2016/12/howto-get-support-information/)
+
+  Blogger: [Stephan Behrens](https://twitter.com/stebe_info)
+
 ## USE CASES
 User's PyEZ examples for reference
 
